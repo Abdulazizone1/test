@@ -1,0 +1,258 @@
+body{
+    overflow-x: hidden;
+}
+#logo{
+    height: 50px;
+    position: relative;
+    top: -15px;
+    margin-right: 100px;
+}
+.navbar{
+    margin-top: 50px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+}
+#joinUs{
+    color: #33BC8C;
+    border: 1px solid #33BC8C;
+    width: 120px;
+    text-align: center;
+}
+#section1{
+    margin-top: 100px;
+}
+#section1 h1{
+    font-size: 4vw;
+    margin-bottom: 50px;
+}
+
+#partnerwithus{
+    background-color: #33BC8C ;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.jumbotron{
+    text-align: center;
+    opacity: 0.8;
+    height: auto;
+    overflow-x: hidden;
+    margin-top: 150px;
+}
+.jumbotron a{
+    color: white;
+    background-color: #33BC8C;
+    padding: 12px 35px;   
+    font-size: 17px;
+    text-decoration: none;
+}
+#section2{
+    margin-top: 150px;
+    height: 300px;
+    z-index: -100000;
+    background-color: #33BC8C;
+    color: white;
+}
+.owl-carousel{
+    top: -100px;
+    z-index: 10;
+    overflow-x: hidden;
+}
+.owl-carousel{
+    cursor: pointer;
+}
+.owl-carousel img{
+  float: right;
+}
+#section2 h1{
+ font-size: 45px;
+ padding: 30px 0 0 80px;
+}
+#arrows{
+    font-size: 25px;
+    margin-top: 70px;
+}
+#arrowleft{
+    background-color: #51c49b;
+    padding: 8px;
+    border-radius: 50%;
+}
+#arrowright{
+    background-color: #51c49b;
+    padding: 8px;
+    border-radius: 50%;
+}
+#ontop{
+    position: relative;
+}
+.item{
+    width: 350px;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+}
+.item img{
+  position: relative;
+  left: -100px;
+}
+#item1{
+    margin-left: 200px;
+}
+.imgsizing{
+    height: 80px;
+    text-align: start;
+}
+
+#pageNum{
+    margin-left: 30px;
+}
+
+#section3{
+    margin-top: 150px;
+    height: 100vh;
+    background-color: rgb(29, 19, 102);
+    color: white;
+}
+#section3 .col-sm-6{
+   margin-top: 20%
+}
+
+.arrowsforblue{
+border-radius: 50%;
+padding: 10px;
+font-size: 20px;
+font-weight: bold;
+background-color: rgba(168, 164, 164, 0.2);
+}
+#section4{
+    margin-top: 150px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.flex>div{
+    flex-direction: row;
+    margin: 20px 35px;
+}
+
+#email{
+    background-color: transparent;
+    border: 1px solid;
+    height: 30px;
+}
+#message{
+    background-color: transparent;
+    height: 150px;
+    width: 300px;
+    margin-top: 20px;
+    height: 90px;
+}
+#accordion{
+    margin-top: 150px;
+}
+.numbers{
+    border-radius: 50%;
+    padding: 0 7px;
+    border: 1px solid black;
+    color: green;
+    margin-right: 75px;
+}
+
+.panel-body{
+   margin: 10px 100px;
+   opacity: .5;
+}
+
+#footer{
+    background-color: rgb(29, 19, 102);
+    height: auto;
+    margin-top: 150px;
+}
+#innerfooter{
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+}
+#links>div{
+    margin: 20px;
+    color: white;
+}
+#links a{
+    color: white;
+}
+.social{
+    height: 20px;
+}
+#bookface{
+    height: 23px;
+}
+#footeratBottom{
+    text-align: center;
+    background-color: rgba(12, 4, 70, 1);
+    padding: 10px 0;
+    margin-top: 50px;
+}
+#arrow{
+    position: relative;
+    left: -138px;
+    bottom: 48px;
+    overflow-y: hidden;
+}
+
+
+
+@media (max-width: 700px){
+    .flex>div{
+        flex-direction: row;
+        margin: 0;
+    }
+    #arrow{
+        top: -270px;
+        left: 100px;
+    }
+    .item{
+        width: auto;
+        height: auto;
+    }
+    .owl-carousel{
+        margin: 0;
+        overflow-y: hidden;
+    }
+    #item1{
+        margin-left: 0px;
+    }
+    #message{
+        height: 250px;
+        width: auto;
+        margin-top: 20px;
+        height: 90px;
+    }
+    #section2 h1{
+        font-size: 45px;
+        padding: 0px;
+       }
+    #links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .numbers{
+        margin-right: 0;
+    }
+    .panel-body{
+       margin: 10px 0;
+    }
+    #Green{
+        margin-right: 0px;
+    }
+
+}
